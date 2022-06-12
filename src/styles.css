@@ -1,4 +1,46 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+input,
+button {
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+input {
+  border: #8f8f8f solid 1px;
+}
+button {
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  background-color: seagreen;
+  color: seashell;
+}
+p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.input-area {
+  height: 50px;
+  margin: 10px 0 0 10px;
+  border-bottom: solid 2px #ac0000;
+}
+.box {
+  padding: 1em;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+.incomplete {
+  background-color: #e4fad2;
+}
+.complete {
+  background-color: #d2e7fa;
 }
