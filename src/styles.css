@@ -31,7 +31,6 @@ p {
   text-align: center;
 }
 .container {
-  width: 65%;
   margin: 0 auto;
 }
 .input-area {
@@ -55,4 +54,16 @@ p {
   align-items: center;
   border-bottom: 1px dotted #999999;
   justify-content: space-between;
+}
+/* 580px以上に適用される */
+@media screen and (min-width: 580px) {
+  .container {
+    width: 65%;
+  }
+}
+/* 1000px以上に適用される */
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
 }
